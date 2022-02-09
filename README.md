@@ -5,9 +5,7 @@ CHEST v 1.1 released as of January 9th, 2019.
 
 Developed by Ian Thomas
 
-*************CHEST v 1.1*********************
-
-Description:
+_CHEST v 1.1_
  CHEST is a simple chess engine built from an
    AlphaBeta search algorithm with an evaluation
    based on piece square tables and pawn bitboards. 
