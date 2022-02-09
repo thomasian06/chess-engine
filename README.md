@@ -29,11 +29,11 @@ _CHEST v 1.1_
    principal variations.
 
 Features:
-	- Recognizes both UCI and WinBoard protocols
-	- no hash table
-	- for list of WinBoard functionality type
-	  xboard --> protover
-	  in the console
-	- recognizes 50 move rule and 3 move repetition
-	- Console mode - play against CHEST v 1.1 in
-	  the console with full functionality
+- Recognizes both UCI and WinBoard protocols
+- no hash table
+- for list of WinBoard functionality type
+  xboard --> protover
+  in the console
+- recognizes 50 move rule and 3 move repetition
+- Console mode - play against CHEST v 1.1 in
+  the console with full functionality
