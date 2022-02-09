@@ -8,7 +8,7 @@ Developed by Ian Thomas
 *************CHEST v 1.1*********************
 
 Description:
- - CHEST is a simple chess engine built from an
+ CHEST is a simple chess engine built from an
    AlphaBeta search algorithm with an evaluation
    based on piece square tables and pawn bitboards. 
    The search algorithm makes use of iterative 
