@@ -1,0 +1,38 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build chess program",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++11", 
+                "chessBoard.hpp", 
+                "chessBoard.cpp", 
+                "bitboards.hpp",
+                "bitboards.cpp",
+                "board.cpp",
+                "attack.cpp",
+                "io.cpp",
+                "moveGen.cpp",
+                "validate.cpp",
+                "makeMove.cpp",
+                "search.cpp",
+                "misc.cpp",
+                "pvTable.cpp",
+                "evaluate.cpp",
+                "uci.cpp",
+                "xboard.cpp",
+                "CHEST.cpp", 
+                "-o", 
+                "CHEST"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
